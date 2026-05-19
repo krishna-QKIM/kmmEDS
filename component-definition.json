@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "title": "Project Blocks",
+      "id": "project-blocks",
+      "components": [
+        {
+          "id": "cards",
+          "title": "Cards Block",
+          "model": "cards-model",
+          "plugins": {
+            "da": {
+              "page": {
+                "resourceType": "kmmeds/components/cards"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
