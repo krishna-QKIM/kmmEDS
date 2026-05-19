@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "id": "cards-model",
+      "fields": [
+        {
+          "component": "text-input",
+          "name": "title",
+          "label": "Card Title",
+          "valueType": "string"
+        },
+        {
+          "component": "text-input",
+          "name": "description",
+          "label": "Card Description",
+          "valueType": "string"
+        }
+      ]
+    }
+  ]
+}
