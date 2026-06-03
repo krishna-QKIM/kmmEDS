@@ -1,0 +1,14 @@
+.my-component {
+    padding: 2rem;
+  }
+  
+  .my-component-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .my-component h2 {
+    font-size: 2rem;
+    color: var(--heading-color);
+  }
+  
