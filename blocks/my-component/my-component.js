@@ -1,5 +1,4 @@
 export default function decorate(block) {
-    // `block` is the div with class "my-component"
     const heading = block.querySelector('h2');
     const text = block.querySelector('p');
   
