@@ -1,0 +1,16 @@
+{
+  "title": "My Component",
+  "fieldType": "object",
+  "properties": {
+    "heading": {
+      "type": "string",
+      "title": "Heading",
+      "description": "Component heading"
+    },
+    "text": {
+      "type": "string",
+      "title": "Description",
+      "description": "Component description text"
+    }
+  }
+}
