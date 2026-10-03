@@ -2,7 +2,7 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 
 export default function decorate(block) {
   const wrapper = document.createElement('div');
-  wrapper.className = 'byline';//top class for the byline block
+  wrapper.className = 'byline';
 
   const textLines = [];
   let avatarCell = null;
