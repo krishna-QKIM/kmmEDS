@@ -1,0 +1,53 @@
+/*placeholder for byline block css*/
+.byline.block {
+  margin: 24px 0;
+}
+
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.byline-avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.byline-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1.3;
+}
+
+.byline-name {
+  font-weight: 600;
+  font-size: var(--body-font-size-m, 18px);
+  color: var(--text-color, #131313);
+}
+
+.byline-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.byline-name a:hover {
+  text-decoration: underline;
+}
+
+.byline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--body-font-size-xs, 14px);
+  color: var(--text-color-muted, #6b6b6b);
+}
+
+/* dot separator between meta items */
+.byline-meta-item + .byline-meta-item::before {
+  content: "·";
+  margin: 0 6px;
+}
